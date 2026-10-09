@@ -1,0 +1,259 @@
+<!doctype html>
+<html lang="es">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>El Ojo Vago News</title>
+<meta name="description" content="Las noticias importantes, vistas con un ojo y medio.">
+<link rel="icon" href="assets/logo.png">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&family=Source+Serif+4:opsz,wght@8..60,600;8..60,700;8..60,800&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0F1115;--panel:#14171C;--line:#23262D;--line2:#262A31;--text:#ECE9E2;--soft:#CFCBC3;--body:#DAD6CE;--muted:#A9A59C;--accent:#F2C14E;--serif:'Source Serif 4',Georgia,serif}
+*{box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--text);font-family:'Atkinson Hyperlegible',system-ui,sans-serif;font-size:18px;line-height:1.6}
+a{color:var(--text);text-decoration:none}
+a:hover{color:var(--accent);text-decoration:underline;text-underline-offset:4px}
+img{max-width:100%}
+.wrap{max-width:1200px;margin:0 auto;padding:0 24px}
+.topbar{border-bottom:1px solid var(--line)}
+.topbar .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:12px;padding-top:10px;padding-bottom:10px;font-size:15px;color:var(--muted)}
+.btn-pill{display:inline-flex;align-items:center;min-height:36px;padding:0 16px;border-radius:999px;background:var(--accent);color:var(--bg);font-weight:700;font-size:15px}
+.btn-pill:hover{color:var(--bg);text-decoration:none;filter:brightness(1.05)}
+.sticky{position:sticky;top:0;z-index:20;background:var(--bg);box-shadow:0 6px 16px rgba(0,0,0,.45)}
+.head{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px 32px;padding-top:8px;padding-bottom:8px}
+.head img{display:block;width:150px;height:auto;mix-blend-mode:lighten}
+.tagline{margin:0;flex:1 1 240px;min-width:0;text-align:right;font-family:var(--serif);font-style:italic;font-weight:600;font-size:19px;line-height:1.3;color:var(--muted)}
+nav.secs{border-top:1px solid var(--line);border-bottom:1px solid var(--line);background:var(--panel)}
+nav.secs .wrap{display:flex;flex-wrap:wrap;justify-content:center;gap:0 4px}
+nav.secs a{display:inline-flex;align-items:center;min-height:40px;padding:0 12px;font-weight:700;font-size:16px;letter-spacing:.3px}
+main{padding-top:40px;padding-bottom:64px}
+.home{display:flex;flex-direction:column;gap:56px}
+.top{display:flex;flex-wrap:wrap;gap:40px}
+.feature{flex:999 1 560px;min-width:0;display:flex;flex-direction:column;gap:16px}
+.feature .logo-box{aspect-ratio:16/9;background:#0B0C0E;border-radius:6px;display:flex;align-items:center;justify-content:center;padding:40px}
+.feature .logo-box img{width:100%;max-width:560px;mix-blend-mode:lighten}
+.kicker{color:var(--accent);font-weight:700;font-style:italic;line-height:1.35}
+.feature h1{margin:0;font-family:var(--serif);font-weight:700;font-size:44px;line-height:1.15;max-width:22ch}
+.feature p{margin:0;font-size:21px;line-height:1.55;color:var(--soft);max-width:62ch}
+.meta{font-size:15px;color:var(--muted)}
+aside.latest{flex:1 1 300px;min-width:0;background:var(--panel);border-radius:6px;padding:24px;align-self:flex-start}
+aside.latest h2{margin:0 0 8px;font-size:15px;letter-spacing:1.2px;text-transform:uppercase;color:var(--accent)}
+.latest .item{display:flex;flex-direction:column;gap:4px;padding:16px 0;border-top:1px solid var(--line2)}
+.latest .item span{font-size:14px;color:var(--muted)}
+.latest .item a{font-family:var(--serif);font-weight:600;font-size:20px;line-height:1.3}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(320px,1fr));gap:48px 40px}
+.sec{display:flex;flex-direction:column;gap:14px;min-width:0;scroll-margin-top:140px}
+.sec-head{display:flex;align-items:baseline;justify-content:space-between;gap:12px;border-top:3px solid var(--accent);padding-top:12px}
+.sec-head h2{margin:0;font-family:var(--serif);font-weight:800;font-size:28px;line-height:1.2}
+.media{position:relative;display:block}
+.media img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:6px;background:#1B1F26}
+.flags{position:absolute;top:12px;left:12px;padding:6px;background:rgba(15,17,21,.7);border-radius:6px;display:flex}
+.flags svg{display:block;width:120px;height:auto}
+.placeholder{aspect-ratio:16/9;background:#1B1F26;border-radius:6px;display:flex;align-items:center;justify-content:center;color:#8A867E;font-size:15px}
+.sec h3{margin:0;font-family:var(--serif);font-weight:700;font-size:24px;line-height:1.25}
+.sec .dek{margin:0;color:var(--soft)}
+.btn-outline{align-self:flex-start;display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;border:1px solid var(--accent);background:transparent;color:var(--accent);font:inherit;font-weight:700;font-size:16px;cursor:pointer}
+.btn-outline:hover{text-decoration:none;background:rgba(242,193,78,.1)}
+.btn-back{border-color:#3A3F48;color:var(--text);font-weight:400}
+/* Nota */
+.article{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
+.article .sec-label{font-size:14px;letter-spacing:1.2px;text-transform:uppercase;font-weight:700;color:var(--accent)}
+.article h1{margin:0;font-family:var(--serif);font-weight:800;font-size:clamp(30px,6vw,46px);line-height:1.15}
+.article .standfirst{margin:0;font-size:21px;line-height:1.55;color:var(--soft);font-weight:700}
+.article .byline{font-size:15px;color:var(--muted);border-top:1px solid var(--line2);border-bottom:1px solid var(--line2);padding:10px 0}
+.article .credit{margin-top:-8px;font-size:13px;line-height:1.5;color:var(--muted)}
+.article .body{display:flex;flex-direction:column;gap:16px}
+.article .body h2{margin:14px 0 0;font-family:var(--serif);font-weight:700;font-size:25px;line-height:1.3}
+.article .body p{margin:0;color:var(--body);font-size:19px;line-height:1.7}
+.article figure{margin:8px 0;display:flex;flex-direction:column;gap:6px}
+.article figure img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover;border-radius:6px}
+.article figcaption{font-size:14px;color:var(--muted)}
+.card{margin:6px 0;background:var(--panel);border:1px solid var(--line2);border-radius:8px;padding:18px 20px;display:flex;flex-wrap:wrap;align-items:flex-start;gap:16px 18px}
+.card img{display:block;flex:0 0 112px;width:112px;aspect-ratio:3/4;object-fit:cover;object-position:center top;border-radius:6px;background:#1B1F26}
+.card .txt{flex:1 1 220px;min-width:0;display:flex;flex-direction:column;gap:6px}
+.card .sub{font-size:13px;letter-spacing:1.2px;text-transform:uppercase;font-weight:700;color:var(--accent)}
+.card .ttl{font-family:var(--serif);font-weight:700;font-size:23px;line-height:1.25}
+.card p{margin:0!important;color:var(--soft)!important;font-size:17px!important;line-height:1.6!important}
+.card .cr{font-size:13px;color:var(--muted)}
+.video{margin:10px 0 0;display:flex;flex-direction:column;gap:8px}
+.video .frame{position:relative;aspect-ratio:16/9;border-radius:10px;overflow:hidden;background:#0B0C0E;border:1px solid #2E333B}
+.video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
+.video .cap{display:flex;flex-wrap:wrap;justify-content:space-between;gap:4px 16px;font-size:14px;color:var(--muted)}
+.video .cap strong{font-family:var(--serif);font-size:20px;color:var(--text)}
+.video .cap a{color:var(--accent);font-weight:700}
+footer{border-top:1px solid var(--line);background:var(--panel)}
+footer .wrap{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:center;gap:16px;padding-top:32px;padding-bottom:32px;font-size:15px;color:var(--muted)}
+footer .brand{font-family:var(--serif);font-weight:800;font-size:22px;color:var(--text)}
+footer .brand span{color:var(--accent)}
+.navrow::-webkit-scrollbar{display:none}
+@media (max-width:640px){
+  .wrap{padding:0 16px}
+  .head{flex-wrap:nowrap;padding-top:6px;padding-bottom:6px;gap:12px}
+  .head img{width:72px}
+  .tagline{flex:1 1 auto;font-size:12px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+  nav.secs .wrap{flex-wrap:nowrap;justify-content:flex-start;overflow-x:auto;scrollbar-width:none;padding:0 8px}
+  nav.secs a{min-height:38px;padding:0 10px;font-size:15px;white-space:nowrap;flex:0 0 auto}
+  body{font-size:16px}
+  .feature h1{font-size:30px}
+  .feature p{font-size:18px}
+  main{padding-top:24px}
+  .sec-head h2{font-size:24px}
+  .sec h3{font-size:21px}
+  .latest .item a{font-size:18px}
+  .article h1{font-size:28px}
+  .article .standfirst{font-size:18px}
+  .article .body h2{font-size:22px}
+  .article .body p{font-size:17px}
+  .card .ttl{font-size:20px}
+  .card p{font-size:15px!important}
+  .video .cap strong{font-size:18px}
+}
+</style>
+</head>
+<body>
+<div class="sticky">
+  <header class="wrap head">
+    <a href="#" aria-label="El Ojo Vago — Portal de noticias, ir a la portada"><img src="assets/logo.png" alt="El Ojo Vago — Portal de noticias"></a>
+    <p class="tagline">Las noticias importantes, vistas con un ojo y medio</p>
+  </header>
+  <nav class="secs" aria-label="Secciones"><div class="wrap navrow" id="nav"></div></nav>
+</div>
+
+<main class="wrap" id="app"></main>
+
+<footer><div class="wrap">
+  <span class="brand">El Ojo Vago <span>News</span></span>
+  <span>[Contacto] · [Redes sociales] · © 2026</span>
+</div></footer>
+
+<script src="data.js"></script>
+<script>
+(function () {
+  var NAMES = ['Deportes', 'Internacional', 'Uruguay', 'Bolsa & Mercados', 'Música', 'Entrevistas', 'Política'];
+  var SLUGS = ['deportes', 'internacional', 'uruguay', 'bolsa', 'musica', 'entrevistas', 'politica'];
+  var S = window.STORIES || {};
+  // Orden de "Lo último": la primera es la más nueva.
+  var LATEST = [
+    { time: 'Hoy', slug: 'musica' },
+    { time: 'Hoy', slug: 'internacional' },
+    { time: 'Ayer', slug: 'uruguay' },
+    { time: 'Ayer', slug: 'deportes' }
+  ];
+  var FLAGS = '<svg viewBox="60 80 520 160" role="img" aria-label="Banderas de Uruguay y El Salvador"><rect x="60" y="80" width="240" height="160" fill="#FFFFFF"/><rect x="60" y="97.8" width="240" height="17.8" fill="#0038A8"/><rect x="60" y="133.3" width="240" height="17.8" fill="#0038A8"/><rect x="60" y="168.9" width="240" height="17.8" fill="#0038A8"/><rect x="60" y="204.4" width="240" height="17.8" fill="#0038A8"/><rect x="60" y="80" width="88.9" height="88.9" fill="#FFFFFF"/><g fill="#FCD116" stroke="#7B3F00" stroke-width="0.8"><polygon points="102.8,109.5 104.4,94.4 106.0,109.5"/><polygon points="108.7,110.0 114.3,100.4 111.6,111.2"/><polygon points="113.8,112.7 125.6,103.2 116.1,115.0"/><polygon points="117.6,117.2 128.4,114.5 118.8,120.1"/><polygon points="119.3,122.8 134.4,124.4 119.3,126.0"/><polygon points="118.8,128.7 128.4,134.3 117.6,131.6"/><polygon points="116.1,133.8 125.6,145.6 113.8,136.1"/><polygon points="111.6,137.6 114.3,148.4 108.7,138.8"/><polygon points="106.0,139.3 104.4,154.4 102.8,139.3"/><polygon points="100.1,138.8 94.5,148.4 97.2,137.6"/><polygon points="95.0,136.1 83.2,145.6 92.7,133.8"/><polygon points="91.2,131.6 80.4,134.3 90.0,128.7"/><polygon points="89.5,126.0 74.4,124.4 89.5,122.8"/><polygon points="90.0,120.1 80.4,114.5 91.2,117.2"/><polygon points="92.7,115.0 83.2,103.2 95.0,112.7"/><polygon points="97.2,111.2 94.5,100.4 100.1,110.0"/><circle cx="104.4" cy="124.4" r="15"/></g><rect x="340" y="80" width="240" height="53.4" fill="#0F47AF"/><rect x="340" y="133.4" width="240" height="53.3" fill="#FFFFFF"/><rect x="340" y="186.7" width="240" height="53.3" fill="#0F47AF"/></svg>';
+
+  function esc(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
+  function sectionName(slug) { return NAMES[SLUGS.indexOf(slug)] || ''; }
+  function media(st) { return st.video || st.image || ''; }
+  function ytId(url) { var m = /[?&]v=([\w-]{11})/.exec(url || ''); return m ? m[1] : ''; }
+
+  document.getElementById('nav').innerHTML = NAMES.map(function (n, i) {
+    return '<a href="#' + SLUGS[i] + '">' + esc(n) + '</a>';
+  }).join('');
+
+  function renderHome(scrollTo) {
+    var latest = LATEST.filter(function (l) { return S[l.slug]; }).map(function (l) {
+      return '<div class="item"><span>' + l.time + ' · ' + esc(sectionName(l.slug)) + '</span><a href="#nota/' + l.slug + '">' + esc(S[l.slug].lead) + '</a></div>';
+    }).join('');
+    var secs = NAMES.map(function (n, i) {
+      var slug = SLUGS[i], st = S[slug], h = '';
+      h += '<section class="sec" id="' + slug + '"><div class="sec-head"><h2>' + esc(n) + '</h2></div>';
+      if (st && media(st)) {
+        h += '<a class="media" href="#nota/' + slug + '"><img src="' + esc(media(st)) + '" alt="' + esc(st.imageAlt) + '" loading="lazy">' + (st.flags ? '<div class="flags">' + FLAGS + '</div>' : '') + '</a>';
+      } else {
+        h += '<div class="placeholder">[Foto]</div>';
+      }
+      if (st) {
+        if (st.kicker) h += '<span class="kicker">' + esc(st.kicker) + '</span>';
+        h += '<h3><a href="#nota/' + slug + '">' + esc(st.lead) + '</a></h3><p class="dek">' + esc(st.dek) + '</p>';
+        if (st.byline) h += '<span class="meta">' + esc(st.byline) + '</span>';
+        if (st.body) h += '<a class="btn-outline" href="#nota/' + slug + '">Leer nota completa</a>';
+      } else {
+        h += '<h3>[Titular principal de ' + esc(n) + ']</h3><p class="dek">[Bajada breve de la noticia en una o dos líneas.]</p>';
+      }
+      return h + '</section>';
+    }).join('');
+    document.getElementById('app').innerHTML =
+      '<div class="home">' +
+        '<section class="top">' +
+          '<article class="feature">' +
+            '<div class="logo-box"><img src="assets/logo.png" alt="Logo de El Ojo Vago — Portal de noticias"></div>' +
+            '<span class="kicker">Que grande el loco Claudio</span>' +
+            '<h1>El Ojo Vago ya es una realidad</h1>' +
+            '<p>Y bueno... como se terminaron los cracks con esto de la IA, llega el portal de noticias El Ojo Vago. Un espacio en el que el admin usará y abusará de la libertad de expresión. Las noticias serán las que tenga ganas de subir y con la frecuencia que le pinte a su editor.</p>' +
+            '<p>Otro proyecto más que quedará inconcluso, de este humilde servidor.</p>' +
+            '<span class="meta">Por el editor</span>' +
+          '</article>' +
+          '<aside class="latest" aria-label="Lo último"><h2>Lo último</h2>' + latest + '</aside>' +
+        '</section>' +
+        '<div class="grid">' + secs + '</div>' +
+      '</div>';
+    document.title = 'El Ojo Vago News';
+    if (scrollTo) { var el = document.getElementById(scrollTo); if (el) el.scrollIntoView(); }
+  }
+
+  function renderBody(list) {
+    return (list || []).map(function (b) {
+      var t = b[0];
+      if (t === 'h') return '<h2>' + esc(b[1]) + '</h2>';
+      if (t === 'p') return '<p>' + esc(b[1]) + '</p>';
+      if (t === 'img') return '<figure><img src="' + esc(b[1]) + '" alt="' + esc(b[2]) + '" loading="lazy"><figcaption>' + esc(b[3]) + '</figcaption></figure>';
+      if (t === 'card') return '<div class="card">' + (b[4] ? '<img src="' + esc(b[4]) + '" alt="Foto de ' + esc(b[1]) + '" loading="lazy">' : '') +
+        '<div class="txt"><span class="sub">' + esc(b[2]) + '</span><span class="ttl">' + esc(b[1]) + '</span><p>' + esc(b[3]) + '</p>' + (b[5] ? '<span class="cr">' + esc(b[5]) + '</span>' : '') + '</div></div>';
+      if (t === 'video') {
+        var id = ytId(b[3]);
+        return '<div class="video"><div class="frame"><iframe src="https://www.youtube-nocookie.com/embed/' + id + '" title="' + esc(b[1]) + ' — ' + esc(b[2]) + '" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>' +
+          '<div class="cap"><span><strong>' + esc(b[1]) + '</strong> · ' + esc(b[2]) + '</span><a href="' + esc(b[3]) + '" target="_blank" rel="noopener">Ver en YouTube ↗</a></div></div>';
+      }
+      return '';
+    }).join('');
+  }
+
+  function renderArticle(slug) {
+    var st = S[slug];
+    if (!st) return renderHome();
+    var m = media(st);
+    document.getElementById('app').innerHTML =
+      '<article class="article">' +
+        '<a class="btn-outline btn-back" href="#' + slug + '">← Volver a la portada</a>' +
+        '<span class="sec-label">' + esc(sectionName(slug)) + '</span>' +
+        (st.kicker ? '<span class="kicker" style="font-size:18px">' + esc(st.kicker) + '</span>' : '') +
+        '<h1>' + esc(st.lead) + '</h1>' +
+        '<p class="standfirst">' + esc(st.dek) + '</p>' +
+        (st.byline || st.date ? '<span class="byline">' + esc(st.byline || st.date) + '</span>' : '') +
+        (m ? '<div class="media"><img src="' + esc(m) + '" alt="' + esc(st.imageAlt) + '">' + (st.flags ? '<div class="flags">' + FLAGS + '</div>' : '') + '</div>' : '') +
+        (st.mediaCredit ? '<span class="credit">' + esc(st.mediaCredit) + '</span>' : '') +
+        '<div class="body">' + renderBody(st.body) + '</div>' +
+        (st.source ? '<span class="meta">Fuente: <a href="' + esc(st.sourceUrl) + '" target="_blank" rel="noopener" style="text-decoration:underline">' + esc(st.source) + '</a></span>' : '') +
+        '<a class="btn-outline" style="margin-top:16px" href="#' + slug + '">← Volver a la portada</a>' +
+      '</article>';
+    document.title = st.lead + ' · El Ojo Vago News';
+    window.scrollTo(0, 0);
+  }
+
+  function route() {
+    var h = decodeURIComponent(location.hash.replace(/^#/, ''));
+    if (h.indexOf('nota/') === 0) return renderArticle(h.slice(5));
+    var onHome = !!document.querySelector('.home');
+    if (!onHome) renderHome(h || null);
+    else if (h) { var el = document.getElementById(h); if (el) el.scrollIntoView(); }
+  }
+  window.addEventListener('hashchange', route);
+  // Si se toca la misma sección dos veces, igual baja hasta ella
+  document.addEventListener('click', function (ev) {
+    var a = ev.target.closest && ev.target.closest('a[href^="#"]');
+    if (!a) return;
+    var h = a.getAttribute('href').slice(1);
+    if (SLUGS.indexOf(h) !== -1 && location.hash === '#' + h && document.querySelector('.home')) {
+      ev.preventDefault();
+      var el = document.getElementById(h);
+      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' });
+    }
+  });
+  route();
+})();
+</script>
+</body>
+</html>
