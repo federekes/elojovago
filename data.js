@@ -146,6 +146,32 @@ window.STORIES = {
         ]
       },
       deportes: {
+        kicker: "Los tenemos de hijos (en la Bombonera)",
+        lead: "Uruguay le dio la bienvenida a la era post-Messi",
+        video: 'assets/uruguay-argentina-scaloni.webp',
+        imageAlt: "Lionel Scaloni camina junto al banco de Argentina en la Bombonera",
+        dek: "La Celeste le ganó 2 a 1 a Argentina en Buenos Aires, en el primer partido de la Albiceleste sin Messi. Segunda visita seguida a la casa de Boca, segunda victoria. Que alguien les avise que ahí ya no nos invitan.",
+        byline: "Por Román · 14 de noviembre de 2026 · ⏱ 2 min de lectura",
+        body: [
+          ["h", "Lo que pasó"],
+          ["p", "El viernes 13 de noviembre (sí, el mismo viernes 13 en que Estados Unidos se quedó sin aviones), Uruguay le ganó 2 a 1 a Argentina en la Bombonera, en un amistoso de fecha FIFA. El primer tiempo terminó 0 a 0 y todo se definió en un ratito del segundo."],
+          ["p", "A los 48 minutos, una pelota rebotó en Leonardo Balerdi y terminó en su propio arco. Cinco minutos después, Maxi Araújo puso el 2 a 0. Argentina descontó a los 73 con Julián Álvarez, que no perdonó en su segunda chance, y no le dio para más."],
+          ["h", "La era post-Messi arrancó como arrancó"],
+          ["p", "Era el primer partido de Argentina después de la despedida de Lionel Messi de la selección. Y no fue el único que faltó: tampoco estuvieron Otamendi, Paredes, Lautaro Martínez ni De Paul. En el arco atajó Gerónimo Rulli, porque el Dibu Martínez se está recuperando de una fractura de mandíbula."],
+          ["p", "Scaloni lo planteó como el comienzo de una etapa nueva. Uruguay se encargó de que el comienzo fuera con una derrota en casa. De nada, hermanos."],
+          ["h", "La forlaneta suma"],
+          ["p", "Del otro lado, Diego Forlán dirigió su cuarto partido como técnico interino desde la salida de Marcelo Bielsa, y volvió Federico Valverde después de perderse los amistosos anteriores por lesión. El que hace un mes le metía seis a India ahora se trae una victoria de la Bombonera. El hombre se elige las pintas y también los resultados."],
+          ["h", "Los tenemos de hijos (con letra chica)"],
+          ["p", "La última vez que Uruguay había pisado la Bombonera fue el 16 de noviembre de 2023, por Eliminatorias: 2 a 0 con goles de Ronald Araújo y Darwin Núñez, con Bielsa en el banco y Messi en la cancha. Fue la primera vez en la historia que la Celeste ganaba ahí. Ahora van dos de dos."],
+          ["p", "Y si alguno se pone pesado, siempre está el archivo: la final del Mundial de 1930, en el Centenario, la ganamos 4 a 2. La de los Juegos Olímpicos de 1928, también."],
+          ["card", "La letra chica", "Ojo con esto", "En el historial completo, mejor no mirar. Antes de este partido se habían enfrentado 214 veces, con 97 triunfos argentinos, 64 uruguayos y 53 empates. Pero acá no vinimos a hacer estadística: vinimos a disfrutar el viernes."],
+          ["h", "Lo que viene"],
+          ["p", "Argentina cierra la fecha FIFA contra Costa Rica. Uruguay busca rival para jugar de local, aunque el Centenario no va a estar disponible. Mientras tanto, la Bombonera ya se puede ir anotando como cancha amiga."],
+          ["fuentes", [["beIN Sports — Todos los goles de Argentina vs. Uruguay", "https://www.beinsports.com/es-us/football/amistosos/articles/todos-los-goles-argentina-vs-uruguay-2026-11-13"], ["El Economista — Argentina vs. Uruguay, el primer partido sin Messi", "https://eleconomista.com.ar/deportes/argentina-vs-uruguay-amistoso-internacional-2026-n99652"], ["TUDN — El historial del clásico del Río de la Plata", "https://www.tudn.com/futbol/argentina-vs-uruguay-a-que-hora-y-donde-ver-el-partido-amistoso-de-fecha-fifa"], ["Montevideo Portal — Uruguay y Argentina confirman el amistoso", "https://www.montevideo.com.uy/Deportes/Uruguay-y-Argentina-confirmaron-amistoso-en-Buenos-Aires-por-la-fecha-FIFA-de-noviembre-uc978830"], ["ESPN — La primera victoria uruguaya en la Bombonera (2023)", "https://espndeportes.espn.com/futbol/mundial/nota/_/id/12879048/uruguay-vencio-argentina-clasico-la-bombonera-eliminatorias"]]]
+        ]
+      },
+      'uruguay-india': {
+        section: 'deportes',
         kicker: 'La forlaneta se elige las pintas',
         lead: 'Uruguay ganó 6 a 1 contra la "poderosa" selección de India',
         dek: 'En Calcuta, la Celeste cerró su gira de amistosos con goleada. Darwin Núñez hizo dos y también marcaron Maxi Araújo, Rodrigo Zalazar, Juan Martín Sanabria y Rodrigo Aguirre. El partido estuvo detenido unos minutos por una tormenta eléctrica.',
