@@ -549,7 +549,7 @@ window.STORIES = {
             "Es un tipo difícil, desbordado, a veces contradictorio y siempre fiel a su personaje. Pero es de los últimos que quedan de la generación que inventó el dancehall. Si alguna vez pasa cerca, vale la pena verlo: flaco, larguísimo, con un traje imposible y su \"bidi bidi bong bong\" sigue siendo uno de los espectáculos más raros y únicos del reggae."
           ],
           ["h", "Mi primera vez"],
-          ["p", "Y acá va la parte personal. Hace años que lo escucho y nunca lo vi en vivo. Ahora tengo la chance: el próximo 13 de diciembre toca en Río de Janeiro, y la idea es ir a verlo por primera vez."],
+          ["p", "Y acá va la parte personal. Hace años que lo escucho y nunca lo vi en vivo. Ahora tengo la chance: el próximo 12 de diciembre toca en Río de Janeiro, y la idea es ir a verlo por primera vez."],
           ["p", "Ir a ver a una leyenda viviente tiene algo de urgente. Eek-A-Mouse tiene 68 años y una vida que daría para tres películas. No sé qué Eek me voy a encontrar: el del traje imposible, el que se pelea con medio mundo o el que levantó a Jamaica en el Sunsplash del 81. Probablemente los tres. Lo que sí sé es que cuando arranque con su \"bidi bidi bong bong\", voy a estar ahí."],
           ["p", "A la vuelta les cuento."],
           [
