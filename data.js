@@ -176,8 +176,8 @@ window.STORIES = {
         "lead": "Mi identidad Soberana es solo mía (y no cesa ante vuestra presencia)",
         "dek": "Descargo del autor. Sobre Gustavo Salle y mi primer intento en política.",
         "byline": "Por Fekes · 14 de noviembre de 2026 · ⏱ 14 min de lectura",
-        "image": "assets/identidad-soberana.svg",
-        "imageAlt": "Ilustración con el texto Mi identidad Soberana es solo mía",
+        "image": "assets/identidad-soberana.webp",
+        "imageAlt": "Hombre de traje abraza el escudo de Identidad Soberana contra el pecho",
         "body": [
           [
             "p",
