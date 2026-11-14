@@ -410,6 +410,187 @@ window.STORIES = {
           ]
         ]
       },
+      'eek-a-mouse': {
+        "section": "musica",
+        "kicker": "Le puso el nombre de un caballo que siempre perdía",
+        "lead": "Eek-A-Mouse, la leyenda viviente que todos usaron",
+        "dek": "Inventó el singjay, alegró a Jamaica cuando murió Marley y lleva más de 40 años en los escenarios. En el camino, según cuenta él, lo estafaron managers, se peleó con los Marley y terminó expulsado de Estados Unidos.",
+        "byline": "Por Román · 14 de noviembre de 2026 · ⏱ 10 min de lectura",
+        "image": "assets/eek-a-mouse.svg",
+        "imageAlt": "Ilustración con el nombre Eek-A-Mouse",
+        "body": [
+          [
+            "p",
+            "Hay artistas que inventan un estilo y hay artistas que lo pagan caro. Ripton Joseph Hylton, a quien el mundo conoce como Eek-A-Mouse, hizo las dos cosas. Creó una forma de cantar que todavía se copia, puso a bailar a un país que lloraba a Bob Marley y llenó escenarios durante cuatro décadas. A la vez, según cuenta él mismo, lo estafó un manager, le cobraron regalías a sus espaldas, se peleó con los Marley y terminó preso y expulsado de Estados Unidos. A los 68 años sigue arriba del escenario. Esta es su historia."
+          ],
+          [
+            "h",
+            "Un caballo que siempre perdía"
+          ],
+          [
+            "p",
+            "Nació el 19 de noviembre de 1957 en Kingston, en el ghetto de Trench Town, el mismo barrio que crió a Marley. Empezó a cantar de chico y, cuando estudiaba, grabó dos singles de roots reggae con su nombre real, producidos por su profesor de matemáticas, un tal Mr. Dehaney."
+          ],
+          [
+            "p",
+            "El nombre artístico es una joya. Eek-A-Mouse era un caballo de carreras al que Ripton le apostaba siempre, y siempre perdía. Cuenta la leyenda que el único día que no le jugó, el caballo ganó. Sus amigos empezaron a llamarlo así y en 1979 lo adoptó para siempre. Ese mismo año pegó sus primeros hits, \"Once a Virgin\" y \"Wa-Do-Dem\", que estuvo varias semanas arriba en los rankings jamaiquinos."
+          ],
+          [
+            "h",
+            "El que alegró el velorio"
+          ],
+          [
+            "p",
+            "En 1981, Jamaica todavía estaba de luto por la muerte de Bob Marley. En el festival Reggae Sunsplash de ese año, la figura fue un flaco altísimo que cantaba con trajes estrafalarios y una voz que no se parecía a nada. Esa noche Eek-A-Mouse levantó a un público que no tenía muchas ganas de festejar, y se volvió un fijo del festival."
+          ],
+          [
+            "p",
+            "Él dice que Bob Marley le decía \"Eek-A-Lion\". Puede ser cierto o puede ser parte del personaje, pero la anécdota pinta bien quién es: un tipo que se siente parte de la realeza del reggae."
+          ],
+          [
+            "h",
+            "El inventor del singjay"
+          ],
+          [
+            "p",
+            "Su gran aporte fue un estilo. En los 80, los DJs jamaiquinos hacían \"toasting\": hablar rítmico arriba de la base, la semilla del rap. Eek-A-Mouse empezó a cantar y a hablar al mismo tiempo, con melodías raras y frases sin sentido del tipo \"bidi bidi bong bong\" metidas en el medio. A eso se le llamó singjay, y él es de los primeros a los que se les puso esa etiqueta."
+          ],
+          [
+            "p",
+            "De la mano del productor Henry \"Junjo\" Lawes encadenó hits: \"Virgin Girl\", \"Wild Like a Tiger\", \"For Hire and Removal\" y \"Ganja Smuggling\". El disco Wa-Do-Dem, de 1981, es un clásico absoluto del dancehall temprano. Para él, el show era tan importante como la canción. En 1985 lo dijo clarito: entretener no es solo cantar, la gente quiere verte disfrazado y bailando."
+          ],
+          [
+            "p",
+            "En los 90 hasta llegó a Hollywood: en 1991 hizo de Fat Smitty, un rastafari narcotraficante, en New Jack City, y ese mismo año apareció como chofer de un proxeneta en Out for Justice, con Steven Seagal. Firmó con Island Records, el sello de Marley, y grabó una versión reggae de \"D'yer Mak'er\" de Led Zeppelin."
+          ],
+          ["p", "Su influencia se escucha en cualquier dancehall de los últimos 40 años: mezclar canto y rap, meter sonidos inventados como si fueran palabras y convertir cada tema en un personaje. Él mismo lo dijo en una entrevista de los 80: otros cantantes rellenan con \"la la\" o \"yeah yeah\", él no; eso es su estilo, y muchos DJs lo siguieron. También grabó con gente que nada tiene que ver con el reggae, como la banda de nu metal P.O.D. o el pianista de jazz Roger Kellaway."],
+          [
+            "h",
+            "Los Marley: un traje caqui que salió caro"
+          ],
+          [
+            "p",
+            "En 2005, Damian Marley sacó Welcome to Jamrock, uno de los discos de reggae más exitosos del siglo, ganador de un Grammy. Ahí está \"Khaki Suit\", con Bounty Killer y con Eek-A-Mouse en los coros. Hasta acá, una linda historia de generaciones."
+          ],
+          [
+            "p",
+            "La versión de Eek es otra. Según contó en entrevistas, por esa grabación le dieron 4.000 dólares como \"plata de bolsillo\" y le prometieron cifras de seis dígitos si el tema pegaba. El tema pegó y él dice que nunca vio esa plata. Va más lejos: asegura que, estando en Brasil, Ziggy Marley les dijo a los promotores locales que no trabajaran con él, que estaba \"prohibido en el reggae\". Son acusaciones suyas; la familia Marley no las respondió públicamente, que yo sepa. Pero explican por qué Eek habla de los Marley con una bronca que no se le pasa."
+          ],
+          [
+            "h",
+            "El manager, el fondo fiduciario y el IRS"
+          ],
+          [
+            "p",
+            "La historia de la plata es la más triste. En una carta abierta a sus fans y en varias entrevistas, Eek-A-Mouse acusó a su exmanager, Robert Fitzpatrick, de haberse quedado con lo que ganaba en las giras. La versión de Eek es así: el manager le dijo que iba a poner su dinero en un \"fondo fiduciario del artista\", y cuando terminaron los cuatro años de contrato, se fue con la plata. Al poco tiempo, cuenta, le llegó una carta del fisco estadounidense diciendo que debía 60.000 dólares."
+          ],
+          [
+            "p",
+            "En la misma carta denunció que otros miembros de su entorno se quedaban con la recaudación de los shows, y que una vez lo abandonaron con la banda en Florida, sin plata y sin la camioneta. En 2021 le contó a The Gleaner otra parte: al principio de su carrera se anotó en la sociedad de autores británica, pero después tuvo \"problemas de gestión\" y se dio cuenta de que otros estaban cobrando sus regalías, con la excusa de que él era un gastador. Él mismo admite que le encanta comprar ropa cara."
+          ],
+          [
+            "p",
+            "Lo irónico es que en esa misma entrevista dijo que nunca tuvo problemas con regalías, porque nunca firmó con gente que no supiera leer y escribir. Pero la realidad de muchos artistas jamaiquinos de su época es la de firmar y marchar: contratos que cedían los derechos, editoriales que manejaban todo y artistas que veían pasar los millones de largo. Eek lo resumió así en otra entrevista: el reggae es un negocio multimillonario y ellos no ven la plata."
+          ],
+          [
+            "p",
+            "Un ejemplo reciente: en 2022, Shaggy sacó \"Mi Nuh Know\", que usa partes de \"Wa-Do-Dem\". Eek salió a decir que Shaggy nunca le pidió permiso. El equipo de Shaggy respondió que el tema se había autorizado por la editorial que maneja las canciones de Eek. O sea, a la canción la autorizaron otros, sin consultarlo a él. Al final quedó acreditado como autor y dijo que estaba conforme con un 25% de las regalías, pero con un reproche: lo mínimo era llamarlo primero."
+          ],
+          [
+            "p",
+            "Y un dato que lo pinta de cuerpo entero: según él, Warner Bros le ofreció un contrato de seis cifras para quedarse con el nombre Eek-A-Mouse. Dijo que no y se fue de la reunión."
+          ],
+          [
+            "h",
+            "El problema en Estados Unidos"
+          ],
+          [
+            "p",
+            "La parte más oscura es de 2008. El 16 de agosto de ese año lo detuvieron en Carolina del Norte, después de un show, acusado de violación y de posesión de drogas. Se fue del país, no se presentó a la primera audiencia y la Justicia fijó una fianza de un millón de dólares. En 2010 apareció en Holanda, y en noviembre de 2012 lo encontraron en Paraguay sin la visa en regla, de donde lo extraditaron a Estados Unidos."
+          ],
+          [
+            "p",
+            "En julio de 2013 llegó a un acuerdo: los cargos graves se cayeron y se declaró \"sin oposición\" a dos delitos menores. El tiempo que ya había pasado preso cubrió la condena y lo deportaron a Jamaica. Él siempre sostuvo que fue una trampa por ser quien es, y lo llamó racismo institucional. Le quedó una prohibición de cinco años para entrar a Estados Unidos, de 2013 a 2018."
+          ],
+          [
+            "p",
+            "En 2023 anunció su regreso con una gira por la costa oeste. Inmigración le aprobó el permiso de trabajo, pero la visa se trabó en el consulado y la gira se postergó. Desde 2017 vive en Suecia con su pareja."
+          ],
+          [
+            "h",
+            "Tres canciones para entenderlo"
+          ],
+          [
+            "p",
+            "Las letras de Eek-A-Mouse son su mejor carta de presentación. Van tres, una de cada palo."
+          ],
+          [
+            "p",
+            "La divertida: \"Anarexol\". Un hombre se va un tiempo y cuando vuelve encuentra a su mujer completamente cambiada. A partir de ahí la canción se vuelve una comedia de barrio sobre los celos, los chismes y la vergüenza pública, con todo el mundo opinando de un asunto privado. Arriba de un ritmo liviano y saltarín, la historia nunca se pone amarga: es para reírse del absurdo."
+          ],
+          [
+            "p",
+            "La seria: \"Operation Eradication\". Es del disco Wa-Do-Dem y está inspirada en el asesinato de un amigo suyo, el DJ Errol Shorter, a manos de un grupo de justicieros. Acá no hay disfraces: es el Eek que vio de cerca la violencia de Kingston. En el mismo disco, \"Ganja Smuggling\" parece una canción de contrabando de marihuana, pero cuando avanza aparece lo que hay atrás: la infancia pobre, la familia durmiendo en el piso, la casa rota por las tormentas. Divertida de escuchar y pesada de entender."
+          ],
+          [
+            "p",
+            "La de la reina: \"Queen Elizabeth\". Salió en 1984 en el disco Mouseketeer y cuenta un hecho real. El 9 de julio de 1982, un desocupado llamado Michael Fagan trepó las rejas del Palacio de Buckingham, llegó hasta el dormitorio de la reina Isabel II y se sentó a hablar con ella antes de que apareciera la seguridad. Eek lo narra como un noticiero de barrio: lo que dice el reportero, lo que dicen los diarios y los rumores que corren (que no se llevó nada, que salió sudando, que lo agarraron con una red). El estribillo es el grito de la casa real echando al intruso del patio. Es periodismo en clave de dancehall, con humor y con una pregunta de fondo: si un tipo cualquiera puede llegar hasta la cama de la reina, ¿qué tan segura está la realeza?"
+          ],
+          [
+            "h",
+            "Una leyenda viviente"
+          ],
+          [
+            "p",
+            "Eek-A-Mouse pasó por todo: la gloria del Sunsplash, Hollywood, Island Records, managers que se esfumaron con la plata, peleas con la familia más famosa del reggae, una cárcel en Estados Unidos y el exilio en Suecia. Y sigue. En 2022 sacó Put Food On The Ghetto Youth Table y en 2025 siguió grabando versiones a su manera, de \"Israelites\" a \"Sweet Child O' Mine\"."
+          ],
+          [
+            "p",
+            "Es un tipo difícil, desbordado, a veces contradictorio y siempre fiel a su personaje. Pero es de los últimos que quedan de la generación que inventó el dancehall. Si alguna vez pasa cerca, vale la pena verlo: flaco, larguísimo, con un traje imposible y su \"bidi bidi bong bong\" sigue siendo uno de los espectáculos más raros y únicos del reggae."
+          ],
+          ["h", "Mi primera vez"],
+          ["p", "Y acá va la parte personal. Hace años que lo escucho y nunca lo vi en vivo. Ahora tengo la chance: el próximo 13 de diciembre toca en Río de Janeiro, y la idea es ir a verlo por primera vez."],
+          ["p", "Ir a ver a una leyenda viviente tiene algo de urgente. Eek-A-Mouse tiene 68 años y una vida que daría para tres películas. No sé qué Eek me voy a encontrar: el del traje imposible, el que se pelea con medio mundo o el que levantó a Jamaica en el Sunsplash del 81. Probablemente los tres. Lo que sí sé es que cuando arranque con su \"bidi bidi bong bong\", voy a estar ahí."],
+          ["p", "A la vuelta les cuento."],
+          [
+            "fuentes",
+            [
+              [
+                "Wikipedia — Eek-A-Mouse",
+                "https://en.wikipedia.org/wiki/Eek-A-Mouse"
+              ],
+              [
+                "The Gleaner — Five Questions With Eek-A-Mouse (2021)",
+                "https://past.jamaica-gleaner.com/article/entertainment/20210618/five-questions-eek-mouse"
+              ],
+              [
+                "Entrevista con Big Stone — Eek-A-Mouse sobre su manager",
+                "https://dia-inc.com/Eek-A-Mouse-BigStone.html"
+              ],
+              [
+                "Steemit — Eek-A-Mouse vs. la familia Marley",
+                "https://steemit.com/hive-181925/@justinparke/eek-a-mouse-vs-the-marley-family"
+              ],
+              [
+                "DancehallMag — Shaggy no pidió permiso, dice Eek-A-Mouse (2022)",
+                "https://dancehallmag.com/?p=53062"
+              ],
+              [
+                "DancehallMag — Eek-A-Mouse conforme con el 25% de Mi Nuh Know",
+                "https://dancehallmag.com/?p=53473"
+              ],
+              [
+                "Reggaeville — Gira por la costa oeste postergada (2023)",
+                "https://reggaeville.com/artist-details/eek-a-mouse/news/view/eek-a-mouse-usa-west-coast-tour-may-2023"
+              ],
+              [
+                "Apple Music — Wa-Do-Dem",
+                "https://music.apple.com/gb/album/383364321"
+              ]
+            ]
+          ]
+        ]
+      },
       'uruguay-india': {
         section: 'deportes',
         kicker: 'La forlaneta se elige las pintas',

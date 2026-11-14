@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Eek-A-Mouse">
+  <rect width="1200" height="675" fill="#0b6623"/>
+  <rect y="225" width="1200" height="225" fill="#f2c14e"/>
+  <rect y="450" width="1200" height="225" fill="#c0392b"/>
+  <rect x="60" y="60" width="1080" height="555" fill="rgba(0,0,0,.55)"/>
+  <text x="600" y="300" text-anchor="middle" font-family="Georgia, serif" font-size="120" font-weight="bold" fill="#ffffff">EEK-A-MOUSE</text>
+  <text x="600" y="400" text-anchor="middle" font-family="Georgia, serif" font-style="italic" font-size="50" fill="#f2c14e">bidi bidi bong bong</text>
+  <text x="600" y="500" text-anchor="middle" font-family="Georgia, serif" font-size="34" fill="#e5e5e5" letter-spacing="4">UNA LEYENDA VIVIENTE · DESDE 1979</text>
+</svg>
