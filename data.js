@@ -170,6 +170,250 @@ window.STORIES = {
           ["fuentes", [["beIN Sports — Todos los goles de Argentina vs. Uruguay", "https://www.beinsports.com/es-us/football/amistosos/articles/todos-los-goles-argentina-vs-uruguay-2026-11-13"], ["El Economista — Argentina vs. Uruguay, el primer partido sin Messi", "https://eleconomista.com.ar/deportes/argentina-vs-uruguay-amistoso-internacional-2026-n99652"], ["TUDN — El historial del clásico del Río de la Plata", "https://www.tudn.com/futbol/argentina-vs-uruguay-a-que-hora-y-donde-ver-el-partido-amistoso-de-fecha-fifa"], ["Montevideo Portal — Uruguay y Argentina confirman el amistoso", "https://www.montevideo.com.uy/Deportes/Uruguay-y-Argentina-confirmaron-amistoso-en-Buenos-Aires-por-la-fecha-FIFA-de-noviembre-uc978830"], ["ESPN — La primera victoria uruguaya en la Bombonera (2023)", "https://espndeportes.espn.com/futbol/mundial/nota/_/id/12879048/uruguay-vencio-argentina-clasico-la-bombonera-eliminatorias"]]]
         ]
       },
+      politica: {
+        "section": "politica",
+        "kicker": "Descargo del autor",
+        "lead": "Mi identidad soberana es mía",
+        "dek": "Sobre Gustavo Salle y mi primer intento en política. Para los que me dijeron que no me comiera la pastilla, para los que convencí de votarlo y para mi mamá.",
+        "byline": "Por Fekes · 14 de noviembre de 2026 · ⏱ 14 min de lectura",
+        "image": "assets/identidad-soberana.svg",
+        "imageAlt": "Ilustración con el texto Mi identidad soberana es mía",
+        "body": [
+          [
+            "p",
+            "Esta nota es para mis amigos que me dijeron \"no comas con Salle\", para los que convencí de que votaran a Salle, para mis colegas ex del partido y para mi mamá. Quiero que entiendan que tengo una mala versión de Salle como persona, pero que estoy de acuerdo con que él (no su hija) ocupe una banca en Diputados, no me arrepiento de darle el voto, sí mi tiempo y mi confianza."
+          ],
+          [
+            "p",
+            "Fue la primera vez en mi vida que me tomé en serio la política, y esta me defraudó. Quiero poner la cara frente a mis 8 lectores. Es bravo asumir, da como vergüenza reconocer el \"y pensar que me habían dicho\"... \"tenías razón\" o \"perdón por hacerte votar a un papanatas\"."
+          ],
+          [
+            "h",
+            "Ahora son equipos de fútbol"
+          ],
+          [
+            "p",
+            "Bueno, voy a hablar un poco de mi experiencia con Salle. Me parecía un loco, un distinto, ¿viste? Me hablaba de cosas que la mayoría de los políticos no hablaba. Empezó a hablar en un programa y pidió en internet que tenía que llegar a las mil personas que firmen. Y la gente se copó. Hasta a mí, que nunca estuve en política ni nada, me pareció bueno que no sea de ningún partido."
+          ],
+          [
+            "p",
+            "Estoy en contra del sistema político partidario. Ahora son equipos de fútbol. Vos votás a un candidato porque lo conocés, sale diputado y es tu diputado. Sabés que, por ejemplo, está a favor de la legalización de la marihuana, y vos también. Por eso lo votaste, porque piensa como vos. Sin embargo, el partido le dice que no levante la mano. Después te encontrás con tu diputado a quien votaste, y le decís: \"Che, ¿por qué hiciste esto?\". Y te dice: \"No, yo estaba a favor, pero tuve que votar en contra por política partidaria\". Escuchame, eso es lo más antidemocrático que hay."
+          ],
+          [
+            "p",
+            "En ese momento lo bancaba porque tuvo los huevos. Había tenido los huevos de hacerlo y lo estaba haciendo."
+          ],
+          [
+            "h",
+            "Los jueves en Maldonado"
+          ],
+          [
+            "p",
+            "Empecé a ir a ver qué precisaban, a publicar cosas. La primera vez que entré a un comité político en mis 44 años fue la trinchera de los \"valores\", y lo quería ayudar, porque el tipo me caía bien y otro poco para matar el ocio. Se juntaban creo que los jueves; fui un día y después seguí yendo. Ayudé en los últimos cuatro meses de la campaña, creo."
+          ],
+          [
+            "p",
+            "Me divertía ir porque todos intercambiábamos sobre cosas que podíamos hacer. Gente muy plural. Había muchos radicales antivacuna, que eso no era mi lucha; no tengo una opinión formada al respecto. Había bastante ecologista y estaba bueno ver una perspectiva que a veces uno se la pasa por alto. Y después había otros tipos desencantados de su anterior partido, y otros con experiencia en campañas políticas, del Frente Amplio sobre todo, o del PERI de Vega. Aprendí bastantes términos técnicos sobre las elecciones."
+          ],
+          [
+            "p",
+            "Uno decía: bueno, mirá, si nos va bien tenemos un diputado, por lo menos podemos hacer cambiar boludeces. Ponerle nombre a una calle. Teníamos ideas tipo poner carteles en las paradas de ómnibus para que la gente efectivamente sepa a qué hora pasa. Taradeces, cosas que mejorarían la calidad de vida en boludeces chiquitas, metas alcanzables, qué sé yo."
+          ],
+          [
+            "p",
+            "Pidió gente para figurar en las listas y yo no aparecí, por suerte, porque hoy estaría bastante más avergonzado. Por suerte no quedé escrito en ningún papel. Tampoco es que milité mucho; nunca fui a repartir volantes. Hay gente que metía en serio: gente que se levantaba a las 7 de la mañana a repartir listas, ponía la cara, daba notas en TV, llamaba gente para convencerla y la convencía."
+          ],
+          [
+            "p",
+            "La campaña política de Identidad Soberana fue gratis. Hasta el jingle era con inteligencia artificial. Había mucha gente que había puesto guita para ayudar al Salle. Gente que alquiló el local y lo pagaba de su bolsillo, o ponía materia prima y su oficio para hacer una rifa, verdaderos apasionados de la política sin fines de lucro."
+          ],
+          [
+            "p",
+            "El segundo jueves que fui al comité ese creo que estaba la hija de Salle; era la primera vez que iba, recién la habían puesto en la lista. Algunos ya veían esa jugada de poner a su hija medio rara ya... Ese día, en esa reunión, me llevé unos cartelitos de 30 cm por 30 que alguien había mandado a imprimir con aportes de los propios convencionales. Me llevé tipo 40, me fui en bicicleta, como un paseo, y los puse en toda la principal, parando cuadra por cuadra para matar el ocio. A la postre, obviamente fue casualidad, no estoy diciendo que yo haya hecho nada, pero I.S. sacó 2,69% en Uruguay, 3,58% en Maldonado, y en Balneario Buenos Aires sacó 6,10%. Récord absoluto."
+          ],
+          [
+            "p",
+            "Ganó en octubre. Impresionante: festejo, todo color de rosas. Fue un éxito: 2,69% a nivel nacional. Casi llega a senador. El partido casi triplica su expectativa, su meta."
+          ],
+          [
+            "h",
+            "El partido era de él"
+          ],
+          [
+            "p",
+            "Cuando puso a la hija, la gente se quemó. Fue como medio una movida política, pero ninguno se animaba a decirle \"bo, loco, pará\". Obviamente nadie tenía la fuerza. El partido era de él, básicamente. ¿Por qué puso a la hija? Bueno, obviamente hay que rodearse de las personas que más confías. Pero no era que la hija estaba metida en eso. Era una mina que se había alejado de la sociedad y la bajó de la tabla de surf para meterla de candidata número 1 por Montevideo. Mi teoría es que la puso por tema de desconfianza y paranoia un poco, y todo el resto por la plata. Nadie se paró de manos porque en realidad estaban en plena campaña; no daba para desunir y perder la oportunidad de tener un diputado al menos."
+          ],
+          [
+            "p",
+            "Yo creo que Salle mismo la vio venir. Dijo: si ganamos un diputado, lo vamos a ganar en Montevideo, y si ganamos otro, lo vamos a ganar en Canelones. El loco es un estratega, básicamente. Con el diario del lunes, la hizo bien. Y por partida doble, porque son dos diputados. Es una locura."
+          ],
+          [
+            "h",
+            "El edil y el espía del MPP"
+          ],
+          [
+            "p",
+            "Salle, para empezar, no es un buen negociador, porque no transa. Aparecía algún loco con una buena idea, o alguno refutándole alguna, siempre con altura, tratando de falsear la teoría, como decía Karl Popper, para hacerla más verídica. Y el líder se paraba de manos. Tal cual lo ves en la televisión: si lo apuran un poco, empieza a gritar y a acusar, a hacerse la víctima, a confrontar en una mala al que le plantea la duda."
+          ],
+          [
+            "p",
+            "Si bien obviamente él es gran parte, no te podés considerar el 100% de tu partido bajo ningún concepto. Como decía Artigas, \"mi autoridad emana de vosotros\". Esto es todo lo contrario. Emana de él mismo."
+          ],
+          [
+            "p",
+            "Había un tipo en Maldonado que era el que más metía, era como el referente. Con lo de la hija ya estaba medio quemado, pero estaba. IS venía con una fuerza bárbara en Maldonado, era el departamento insignia en share de votos... Y hablando de esto que querían sus militantes, cosas reales, desde cambiar una parada de un bondi o pintar una plaza, luego de ver que Maldonado tenía un 3,5% quisieron participar en las departamentales para tal vez sacar un edil, y decidieron, levantando la mano, que se tire esta persona para edil."
+          ],
+          [
+            "p",
+            "De la plata de los votos, unos 60.000 dólares corresponden a los votos de Maldonado. Le pidieron 20 lucas para gastar en una campaña para edil, imprimir cosas, pasar algún aviso en la radio. Le pidieron que del casi un millón de dólares que había ganado el partido reinvierta un 2% en las elecciones de mayo. En el acto el dictador le cortó las gambas. Decía que no había gente formada, o algo así. Este loco se calentó bastante y renunció al partido porque Salle le había prometido otra cosa."
+          ],
+          [
+            "p",
+            "Yo me lo explico fácil: megalomanía. No quería otra cara en el partido. Es algo que no permite que piense distinto. Se lo tomó en serio: la identidad soberana es solo de él, no es del partido, es su identidad soberana. Él es el soberano y el resto acatan. Podríamos haber sacado un edil. Yo estaría súper contento de que ese man hubiese llegado a edil."
+          ],
+          [
+            "p",
+            "Ahí ya se empezó a hundir la cosa. A los 3 meses. Un par ya se fueron, algunos más después. Luego designó unos representantes; nosotros éramos los representantes de Maldonado, creo que éramos 9. Al principio íbamos a las reuniones con 3 ideas cada uno y era constante la respuesta del diputado: \"No, hay que esperar\". Nos estaba matando la ansiedad, porque todos queríamos hacer cosas. Repito, boludeces. Queríamos decirle un montón de cosas, el loco venía y te cambiaba de tema, y nadie le decía nada."
+          ],
+          [
+            "p",
+            "Quedaba una que era casi un soldado de él, Natalia Pigurina, que era la 3 del partido, que también renunció al partido y presentó algunos descargos en algunos programas. Por lo menos contó toda la verdad; no se fue en silencio. Creo que Marita, la vice, tampoco está más."
+          ],
+          [
+            "p",
+            "Yo seguí ahí. Capaz que todavía pensaba que el loco tenía una estrategia, pero no para él, sino para hacer crecer el partido. Tenía la esperanza de que en algún momento, igual gratis, iba a estar ahí en los pasillos del Palacio Legislativo, aprendiendo, viendo la realidad en vivo y en directo. Me llama el 2 de Maldonado a ofrecerme eso y le agradecí por confiar; me dice que pagan poco, unos 20.000 pesos, y le dije: voy gratis. Estar ahí llevando carpetas y viendo todo era una experiencia hermosa. Al final todo quedó en la nada."
+          ],
+          [
+            "p",
+            "Empieza a designar representantes departamentales que no le discutían nada, básicamente. Había un montón de gente mucho más capaz que los que elegía: los tipos más sumisos y menos pensantes, fanatizados. Buscaba fanáticos: que el loco diga A y todo el mundo le aplauda. Un dictador, básicamente."
+          ],
+          [
+            "h",
+            "Mi último día en ISallidad Sallidana"
+          ],
+          [
+            "p",
+            "Un día estábamos en un asado, ponele que tres meses después de haber ganado. Viene Salle, a mostrar su camioneta nueva (para mí, comprada con la de los votos). Le decían: \"No tiene más la Salleneta\". Yo veía que el loco no me daba mucha bola hacía meses. Había otro loco y un par más que me decían \"qué raro\", y le digo: yo lo voy a encarar. Me dice: \"No, pará, que yo le pregunto\". Estábamos comiendo en el parrillero y vuelve con cara medio larga. Según lo que me dijo, alguien le había dicho a Salle que yo era un espía del MPP. Esa persona, que además me conocía, me dijo que no podía creer lo que escuchó, y creo que ese día se alejó también. ¡Del MPP, nada más y nada menos! De dónde habrá sacado ese delirio."
+          ],
+          [
+            "p",
+            "Yo lo ayudé, pero no hice mucha cosa. Había problemas con los convencionales, había que votar no sé qué estatuto, y armé un par de videos con IA, no sé, le regalé un micrófono porque la calidad de los vivos era nefasta... tonterías. No entendí cómo me dice que soy un espía del MPP."
+          ],
+          [
+            "p",
+            "Imaginate el nivel de paranoia que maneja este loco."
+          ],
+          [
+            "h",
+            "Un negocio de 2 palos verdes"
+          ],
+          [
+            "p",
+            "Mucha gente, repito, lo ayudó. Y muchos, básicamente, estafados en su moral y otros en su bolsillo, tengo entendido, por lo que me contaron: que hubo gente que le prestó plata y nunca más les habló... Y estamos hablando de que para un loco USD 2.000 es plata. Por los votos, el partido cobró del Estado unos 860 mil dólares, y que yo sepa ni siquiera sacó un poco para tapar esas deudas, a modo de agradecimiento al menos. Para mí, un tipo con una relación enfermiza con el dinero."
+          ],
+          [
+            "p",
+            "Después, cobran sueldo él y la hija. Si sumás todos los sueldos de él y la hija en los cinco años, es más de un millón de dólares. Un negocio de 2 palos verdes hizo el tipo."
+          ],
+          [
+            "p",
+            "La campaña fue gratis, por eso digo que es la mayor movida política a nivel negocios. Le generó un lucro enorme, y fue toda una estrategia diseñada por él; no fue casualidad. Para mí es la mejor estrategia de la historia política del Uruguay a nivel de dinero. Es un tipo que engañó al sistema político uruguayo, básicamente. Y por partida doble. Triste."
+          ],
+          [
+            "p",
+            "Hete aquí los costos del Estado: un diputado le sale a Uruguay más de medio millón de dólares por quinquenio, solo en sueldos. Los 99 diputados, más de 55 millones de dólares. Somos 3 millones de personas, y encima los parlamentarios votan lo que les diga el partido, no tienen decisiones propias. En vez de 99 diputados, que sean 33, y ponemos 11 senadores. O bajar el sueldo a un tercio a cada uno, que ya está suficiente para vivir como un uruguayo, no tan de a pie pero un sueldo terrenal. Cualquiera de las dos reformas (bajar el sueldo o la cantidad a un tercio) te ahorra cerca de 50 millones de dólares cada cinco años."
+          ],
+          [
+            "p",
+            "Por eso es que la política es un negocio: hay mucha guita en juego, y la gente al final dice \"voy a entrar en política porque hay tanta plata\". Dale, entonces no seas político. El político tiene que ganar lo mismo que gana un ciudadano promedio. Y eso de que \"ay, tenés que pagarle bien a los políticos porque si no hacen jodas y roban\"... roban igual."
+          ],
+          [
+            "p",
+            "Un político tiene que vivir con la plata con la que viven sus votantes por mes, para vivir en carne propia los aumentos de sueldo, la inflación, etcétera."
+          ],
+          [
+            "h",
+            "¿Qué hizo \"Salle e Hijos S.A.\" en un año y medio?"
+          ],
+          [
+            "p",
+            "Cuando el tipo saca el 2,8% de los votos, dice que lo llama el candidato Álvaro Delgado para negociar. Ese 3% podía definir el balotaje. Eso me gustó en su momento, por un lado, que no se casó con nadie. Pero si realmente tu interés es lograr cambiar algo, nadie lo va a poder hacer solo. Él dice que son lo mismo el Frente que la Coalición, que son el PUNOM. Y bueno, si son lo mismo, negociá y, no sé... agarrá un ministerio. Para mí se apuró, y pensó solo en él. No pensó en las personas que lo rodearon durante 9 meses y que hicieron más campaña que él, ni en una estrategia política a largo plazo."
+          ],
+          [
+            "p",
+            "Hasta con Galeano, de Hacemos lo que Podemos, que es gran responsable de su éxito. El loco le promete que va a seguir en el programa el año que viene; después que gana, festejan, toman champán, se va de viaje, vuelve y le dice que no a Galeano, que va a hacer su propio programa. Ni siquiera es un tema de valores, ¿viste? Como agradecimiento al menos debió seguir un año con ese programa."
+          ],
+          [
+            "p",
+            "Su campaña, después de un año y medio: hay que buscar qué es lo que hizo, más allá del show, qué hizo para ayudar a la gente o para cambiar algo tangible. Sí, está bien: que ataques de falsa bandera, que el Banco Mundial, que la diosa del mercado. Es verdad que Uruguay vive un endeudamiento perpetuo. Pero no propone, critica; si le preguntás la solución, dice que no hay. Entonces habla de Jeffrey Epstein; está bien, podés hablar en un programa de televisión, pero son cosas que no tienen nada que ver con la Cámara de Diputados. Lo de la vacuna, ya está: por más que hagas, pediste informes y no te dieron ni pelota. No inauguró una escuela. No ayudó a nadie, básicamente. A él y a su famiglia solamente."
+          ],
+          [
+            "p",
+            "Y siempre la paranoia a la orden del día: que lo quieren bajar del Parlamento, que el sionismo, que le van a aplicar el artículo no me acuerdo cuál, que lo están escuchando. Propuso que si todos los diputados se bajaban el sueldo, él se lo bajaba también. Eso sí, lo cobró. Podía haber hecho una donación dando un ejemplo histórico, pero él no quería eso, quería salir en TV."
+          ],
+          [
+            "p",
+            "En definitiva, no quiere cambiar nada... quiere salir en la tele."
+          ],
+          [
+            "h",
+            "Me comí la pastilla"
+          ],
+          [
+            "p",
+            "A mí me hablaban del loco tras bambalinas: \"Mirá que es un ave rapaz, no te comas la pastilla\". Y bueno, me comí la pastilla al haber confiado. Estoy muy arrepentido de haberlo apoyado, y arrepentido también de que en algún momento creí."
+          ],
+          [
+            "p",
+            "No estoy arrepentido de que haya ganado. Me parece que el diputado tiene que ser una cosa plural, y no lo que es ahora. Pero claro, el loco se quejaba del sistema y se lo morfó el sistema, como dicen. Y ahora está mirando el reloj, esperando que termine. Ya se aseguró los nietos, todo."
+          ],
+          [
+            "p",
+            "Es una pena, porque capaz que ese loco, bien rodeado, podía hacer que el partido, que en realidad no es de él sino de los que lo votaron, crezca. Hacer una buena gestión, lograr boludeces, ir despacito por las piedras, y llegar en las próximas elecciones a uno o dos senadores, cuatro o cinco diputados. Pero no tiene estructura. Por eso digo que es un cadáver político. Para mí quiere que estos 5 años pasen rápido, facturar y retirarse. Ya dice en entrevistas que la mujer quiere que renuncie a la política al final de este quinquenio... y claro, 2 palos verdes y a vivir como a él le gusta: como un burgués."
+          ],
+          [
+            "p",
+            "Ahora que está cada vez más solo, la estrategia es renovar el público, que no me gustaría que pase. Por eso, tal vez, hago estos descargos, para \"avivar giles\"."
+          ],
+          [
+            "p",
+            "Creo que más de la mitad de sus listas se fueron, o porque son excluidos, o a los que por h o por b Salle fue haciendo uno a uno que renuncien, con su estrategia, repito, histórica... Estos arrepentidos de Salle creo que se la hacen muy fácil. Deberían ir con un megáfono a donde vaya, contándole un poco la verdad a él mismo, un poco de su propia medicina. Que tome conocimiento público."
+          ],
+          [
+            "p",
+            "Un bajón. La verdad que es un bajón para toda la gente que pensó que podía llegar a cambiar algo, proponer, o ser parte de un partido. Varios de los defraudados de su lista me decían: \"No, yo no me meto nunca más en política, no quiero saber nada\". Mi mensaje a todos ellos es: no se equivoca el que no hace nada."
+          ],
+          [
+            "p",
+            "(Mi identidad soberana es mía)"
+          ],
+          [
+            "p",
+            "Fekes"
+          ],
+          [
+            "fuentes",
+            [
+              [
+                "Montevideo Portal — Las cifras que cada partido cobra del Estado por las elecciones",
+                "https://www.montevideo.com.uy/Archivo/Uno-a-uno-las-cifras-millonarias-que-cada-partido-cobrara-del-Estado-por-las-elecciones-uc905523"
+              ],
+              [
+                "Montevideo Portal — Salle mostró su recibo de sueldo",
+                "https://www.montevideo.com.uy/Noticias/Salle-mostro-su-recibo-de-sueldo-cuanto-cobra-como-diputado-y-que-dinero-va-a-su-partido-uc922777"
+              ],
+              [
+                "Cámara de Representantes — Sueldo de diputados, enero 2025",
+                "http://www.diputados.gub.uy/wp-content/uploads/2025/03/SUELDO-Diputados-enero-2025.pdf"
+              ],
+              [
+                "El Observador — Gustavo Salle por partida doble",
+                "https://www.elobservador.com.uy/gustavo-salle-partida-doble-la-hija-sera-la-otra-diputada-identidad-soberana-n5967809"
+              ]
+            ]
+          ]
+        ]
+      },
       'uruguay-india': {
         section: 'deportes',
         kicker: 'La forlaneta se elige las pintas',
