@@ -78,6 +78,9 @@ aside.latest h2{margin:0 0 8px;font-size:15px;letter-spacing:1.2px;text-transfor
 .card .ttl{font-family:var(--serif);font-weight:700;font-size:23px;line-height:1.25}
 .card p{margin:0!important;color:var(--soft)!important;font-size:17px!important;line-height:1.6!important}
 .card .cr{font-size:13px;color:var(--muted)}
+.fuentes{margin:0;padding-left:20px;font-size:15px;line-height:1.6;color:var(--muted)}
+.fuentes li{margin-bottom:6px}
+.fuentes a{color:var(--muted);text-decoration:underline;text-underline-offset:3px}
 .video{margin:10px 0 0;display:flex;flex-direction:column;gap:8px}
 .video .frame{position:relative;aspect-ratio:16/9;border-radius:10px;overflow:hidden;background:#0B0C0E;border:1px solid #2E333B}
 .video iframe{position:absolute;inset:0;width:100%;height:100%;border:0}
@@ -137,15 +140,17 @@ footer .brand span{color:var(--accent)}
   var S = window.STORIES || {};
   // Orden de "Lo último": la primera es la más nueva.
   var LATEST = [
-    { time: 'Hoy', slug: 'musica' },
     { time: 'Hoy', slug: 'internacional' },
+    { time: '9 oct', slug: 'musica' },
+    { time: '9 oct', slug: 'francia' },
     { time: 'Ayer', slug: 'uruguay' },
     { time: 'Ayer', slug: 'deportes' }
   ];
   var FLAGS = '<svg viewBox="60 80 520 160" role="img" aria-label="Banderas de Uruguay y El Salvador"><rect x="60" y="80" width="240" height="160" fill="#FFFFFF"/><rect x="60" y="97.8" width="240" height="17.8" fill="#0038A8"/><rect x="60" y="133.3" width="240" height="17.8" fill="#0038A8"/><rect x="60" y="168.9" width="240" height="17.8" fill="#0038A8"/><rect x="60" y="204.4" width="240" height="17.8" fill="#0038A8"/><rect x="60" y="80" width="88.9" height="88.9" fill="#FFFFFF"/><g fill="#FCD116" stroke="#7B3F00" stroke-width="0.8"><polygon points="102.8,109.5 104.4,94.4 106.0,109.5"/><polygon points="108.7,110.0 114.3,100.4 111.6,111.2"/><polygon points="113.8,112.7 125.6,103.2 116.1,115.0"/><polygon points="117.6,117.2 128.4,114.5 118.8,120.1"/><polygon points="119.3,122.8 134.4,124.4 119.3,126.0"/><polygon points="118.8,128.7 128.4,134.3 117.6,131.6"/><polygon points="116.1,133.8 125.6,145.6 113.8,136.1"/><polygon points="111.6,137.6 114.3,148.4 108.7,138.8"/><polygon points="106.0,139.3 104.4,154.4 102.8,139.3"/><polygon points="100.1,138.8 94.5,148.4 97.2,137.6"/><polygon points="95.0,136.1 83.2,145.6 92.7,133.8"/><polygon points="91.2,131.6 80.4,134.3 90.0,128.7"/><polygon points="89.5,126.0 74.4,124.4 89.5,122.8"/><polygon points="90.0,120.1 80.4,114.5 91.2,117.2"/><polygon points="92.7,115.0 83.2,103.2 95.0,112.7"/><polygon points="97.2,111.2 94.5,100.4 100.1,110.0"/><circle cx="104.4" cy="124.4" r="15"/></g><rect x="340" y="80" width="240" height="53.4" fill="#0F47AF"/><rect x="340" y="133.4" width="240" height="53.3" fill="#FFFFFF"/><rect x="340" y="186.7" width="240" height="53.3" fill="#0F47AF"/></svg>';
 
   function esc(s) { return String(s == null ? '' : s).replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;').replace(/"/g, '&quot;'); }
-  function sectionName(slug) { return NAMES[SLUGS.indexOf(slug)] || ''; }
+  function homeSlug(slug) { return (S[slug] && S[slug].section) || slug; }
+  function sectionName(slug) { return NAMES[SLUGS.indexOf(homeSlug(slug))] || ''; }
   function media(st) { return st.video || st.image || ''; }
   function ytId(url) { var m = /[?&]v=([\w-]{11})/.exec(url || ''); return m ? m[1] : ''; }
 
@@ -207,6 +212,9 @@ footer .brand span{color:var(--accent)}
         return '<div class="video"><div class="frame"><iframe src="https://www.youtube-nocookie.com/embed/' + id + '" title="' + esc(b[1]) + ' — ' + esc(b[2]) + '" loading="lazy" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe></div>' +
           '<div class="cap"><span><strong>' + esc(b[1]) + '</strong> · ' + esc(b[2]) + '</span><a href="' + esc(b[3]) + '" target="_blank" rel="noopener">Ver en YouTube ↗</a></div></div>';
       }
+      if (t === 'fuentes') return '<h2>Fuentes</h2><ul class="fuentes">' + b[1].map(function (f) {
+        return '<li><a href="' + esc(f[1]) + '" target="_blank" rel="noopener">' + esc(f[0]) + '</a></li>';
+      }).join('') + '</ul>';
       return '';
     }).join('');
   }
@@ -217,7 +225,7 @@ footer .brand span{color:var(--accent)}
     var m = media(st);
     document.getElementById('app').innerHTML =
       '<article class="article">' +
-        '<a class="btn-outline btn-back" href="#' + slug + '">← Volver a la portada</a>' +
+        '<a class="btn-outline btn-back" href="#' + homeSlug(slug) + '">← Volver a la portada</a>' +
         '<span class="sec-label">' + esc(sectionName(slug)) + '</span>' +
         (st.kicker ? '<span class="kicker" style="font-size:18px">' + esc(st.kicker) + '</span>' : '') +
         '<h1>' + esc(st.lead) + '</h1>' +
@@ -227,7 +235,7 @@ footer .brand span{color:var(--accent)}
         (st.mediaCredit ? '<span class="credit">' + esc(st.mediaCredit) + '</span>' : '') +
         '<div class="body">' + renderBody(st.body) + '</div>' +
         (st.source ? '<span class="meta">Fuente: <a href="' + esc(st.sourceUrl) + '" target="_blank" rel="noopener" style="text-decoration:underline">' + esc(st.source) + '</a></span>' : '') +
-        '<a class="btn-outline" style="margin-top:16px" href="#' + slug + '">← Volver a la portada</a>' +
+        '<a class="btn-outline" style="margin-top:16px" href="#' + homeSlug(slug) + '">← Volver a la portada</a>' +
       '</article>';
     document.title = st.lead + ' · El Ojo Vago News';
     window.scrollTo(0, 0);
