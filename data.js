@@ -173,11 +173,11 @@ window.STORIES = {
       politica: {
         "section": "politica",
         "kicker": "Descargo del autor",
-        "lead": "Mi identidad soberana es mía",
-        "dek": "Sobre Gustavo Salle y mi primer intento en política. Para los que me dijeron que no me comiera la pastilla, para los que convencí de votarlo y para mi mamá.",
+        "lead": "Mi identidad Soberana es solo mía (y no cesa ante vuestra presencia)",
+        "dek": "Descargo del autor. Sobre Gustavo Salle y mi primer intento en política.",
         "byline": "Por Fekes · 14 de noviembre de 2026 · ⏱ 14 min de lectura",
         "image": "assets/identidad-soberana.svg",
-        "imageAlt": "Ilustración con el texto Mi identidad soberana es mía",
+        "imageAlt": "Ilustración con el texto Mi identidad Soberana es solo mía",
         "body": [
           [
             "p",
@@ -382,10 +382,6 @@ window.STORIES = {
           [
             "p",
             "Un bajón. La verdad que es un bajón para toda la gente que pensó que podía llegar a cambiar algo, proponer, o ser parte de un partido. Varios de los defraudados de su lista me decían: \"No, yo no me meto nunca más en política, no quiero saber nada\". Mi mensaje a todos ellos es: no se equivoca el que no hace nada."
-          ],
-          [
-            "p",
-            "(Mi identidad soberana es mía)"
           ],
           [
             "p",
