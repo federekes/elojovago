@@ -58,6 +58,18 @@ aside.latest h2{margin:0 0 8px;font-size:15px;letter-spacing:1.2px;text-transfor
 .btn-outline{align-self:flex-start;display:inline-flex;align-items:center;min-height:44px;padding:0 18px;border-radius:999px;border:1px solid var(--accent);background:transparent;color:var(--accent);font:inherit;font-weight:700;font-size:16px;cursor:pointer}
 .btn-outline:hover{text-decoration:none;background:rgba(242,193,78,.1)}
 .btn-back{border-color:#3A3F48;color:var(--text);font-weight:400}
+/* Sección */
+.section-page{max-width:900px;margin:0 auto;display:flex;flex-direction:column;gap:28px}
+.section-page .sec-head h1{margin:0;font-family:var(--serif);font-weight:800;font-size:clamp(30px,6vw,44px);line-height:1.15}
+.section-page .count{font-size:15px;color:var(--muted)}
+.entry{display:grid;grid-template-columns:minmax(0,320px) minmax(0,1fr);gap:16px 28px;padding-bottom:28px;border-bottom:1px solid var(--line2)}
+.entry:last-child{border-bottom:0}
+.entry .txt{display:flex;flex-direction:column;gap:10px;min-width:0}
+.entry h2{margin:0;font-family:var(--serif);font-weight:700;font-size:26px;line-height:1.25}
+.entry .dek{margin:0;color:var(--soft)}
+.sec-head a.all{font-size:15px;font-weight:700;color:var(--accent);white-space:nowrap}
+.empty{color:var(--muted)}
+@media (max-width:640px){.entry{grid-template-columns:1fr}.entry h2{font-size:22px}}
 /* Nota */
 .article{max-width:760px;margin:0 auto;display:flex;flex-direction:column;gap:18px}
 .article .sec-label{font-size:14px;letter-spacing:1.2px;text-transform:uppercase;font-weight:700;color:var(--accent)}
@@ -154,10 +166,18 @@ footer .brand span{color:var(--accent)}
   function homeSlug(slug) { return (S[slug] && S[slug].section) || slug; }
   function sectionName(slug) { return NAMES[SLUGS.indexOf(homeSlug(slug))] || ''; }
   function media(st) { return st.video || st.image || ''; }
+  function storiesOf(sec) {
+    var order = LATEST.map(function (l) { return l.slug; });
+    return Object.keys(S).filter(function (k) { return homeSlug(k) === sec; }).sort(function (a, b) {
+      var ia = order.indexOf(a), ib = order.indexOf(b);
+      if (ia === -1) ia = 999; if (ib === -1) ib = 999;
+      return ia - ib;
+    });
+  }
   function ytId(url) { var m = /[?&]v=([\w-]{11})/.exec(url || ''); return m ? m[1] : ''; }
 
   document.getElementById('nav').innerHTML = NAMES.map(function (n, i) {
-    return '<a href="#' + SLUGS[i] + '">' + esc(n) + '</a>';
+    return '<a href="#seccion/' + SLUGS[i] + '">' + esc(n) + '</a>';
   }).join('');
 
   function renderHome(scrollTo) {
@@ -166,7 +186,9 @@ footer .brand span{color:var(--accent)}
     }).join('');
     var secs = NAMES.map(function (n, i) {
       var slug = SLUGS[i], st = S[slug], h = '';
-      h += '<section class="sec" id="' + slug + '"><div class="sec-head"><h2>' + esc(n) + '</h2></div>';
+      var total = storiesOf(slug).length;
+      h += '<section class="sec" id="' + slug + '"><div class="sec-head"><h2><a href="#seccion/' + slug + '">' + esc(n) + '</a></h2>' +
+        (total > 1 ? '<a class="all" href="#seccion/' + slug + '">Ver las ' + total + ' notas →</a>' : '') + '</div>';
       if (st && media(st)) {
         h += '<a class="media" href="#nota/' + slug + '"><img src="' + esc(media(st)) + '" alt="' + esc(st.imageAlt) + '" loading="lazy">' + (st.flags ? '<div class="flags">' + FLAGS + '</div>' : '') + '</a>';
       } else {
@@ -201,6 +223,32 @@ footer .brand span{color:var(--accent)}
     if (scrollTo) { var el = document.getElementById(scrollTo); if (el) el.scrollIntoView(); }
   }
 
+  function renderSection(sec) {
+    var i = SLUGS.indexOf(sec);
+    if (i === -1) return renderHome();
+    var keys = storiesOf(sec);
+    var items = keys.map(function (k) {
+      var st = S[k], m = media(st);
+      return '<article class="entry">' +
+        (m ? '<a class="media" href="#nota/' + k + '"><img src="' + esc(m) + '" alt="' + esc(st.imageAlt) + '" loading="lazy">' + (st.flags ? '<div class="flags">' + FLAGS + '</div>' : '') + '</a>' : '<div class="placeholder">[Foto]</div>') +
+        '<div class="txt">' +
+          (st.kicker ? '<span class="kicker">' + esc(st.kicker) + '</span>' : '') +
+          '<h2><a href="#nota/' + k + '">' + esc(st.lead) + '</a></h2>' +
+          '<p class="dek">' + esc(st.dek) + '</p>' +
+          ((st.byline || st.date) ? '<span class="meta">' + esc(st.byline || st.date) + '</span>' : '') +
+          '<a class="btn-outline" href="#nota/' + k + '">Leer nota</a>' +
+        '</div></article>';
+    }).join('');
+    document.getElementById('app').innerHTML =
+      '<section class="section-page">' +
+        '<a class="btn-outline btn-back" href="#">← Volver a la portada</a>' +
+        '<div class="sec-head"><h1>' + esc(NAMES[i]) + '</h1><span class="count">' + keys.length + (keys.length === 1 ? ' nota' : ' notas') + '</span></div>' +
+        (items || '<p class="empty">Todavía no hay notas en esta sección.</p>') +
+      '</section>';
+    document.title = NAMES[i] + ' · El Ojo Vago News';
+    window.scrollTo(0, 0);
+  }
+
   function renderBody(list) {
     return (list || []).map(function (b) {
       var t = b[0];
@@ -228,7 +276,7 @@ footer .brand span{color:var(--accent)}
     document.getElementById('app').innerHTML =
       '<article class="article">' +
         '<a class="btn-outline btn-back" href="#' + homeSlug(slug) + '">← Volver a la portada</a>' +
-        '<span class="sec-label">' + esc(sectionName(slug)) + '</span>' +
+        '<a class="sec-label" href="#seccion/' + homeSlug(slug) + '">' + esc(sectionName(slug)) + '</a>' +
         (st.kicker ? '<span class="kicker" style="font-size:18px">' + esc(st.kicker) + '</span>' : '') +
         '<h1>' + esc(st.lead) + '</h1>' +
         '<p class="standfirst">' + esc(st.dek) + '</p>' +
@@ -246,6 +294,7 @@ footer .brand span{color:var(--accent)}
   function route() {
     var h = decodeURIComponent(location.hash.replace(/^#/, ''));
     if (h.indexOf('nota/') === 0) return renderArticle(h.slice(5));
+    if (h.indexOf('seccion/') === 0) return renderSection(h.slice(8));
     var onHome = !!document.querySelector('.home');
     if (!onHome) renderHome(h || null);
     else if (h) { var el = document.getElementById(h); if (el) el.scrollIntoView(); }
