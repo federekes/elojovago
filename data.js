@@ -197,11 +197,11 @@ window.STORIES = {
           ],
           [
             "p",
-            "Estoy en contra del sistema político partidario. Ahora son equipos de fútbol. Vos votás a un candidato porque lo conocés, sale diputado y es tu diputado. Sabés que, por ejemplo, está a favor de la legalización de la marihuana, y vos también. Por eso lo votaste, porque piensa como vos. Sin embargo, el partido le dice que no levante la mano. Después te encontrás con tu diputado a quien votaste, y le decís: \"Che, ¿por qué hiciste esto?\". Y te dice: \"No, yo estaba a favor, pero tuve que votar en contra por política partidaria\". Escuchame, eso es lo más antidemocrático que hay."
+            "Estoy en contra del sistema político partidario. Ahora son equipos de fútbol, la gente vota colores... Imaginate, vos votás a un candidato porque lo conocés, sale diputado y es tu diputado. Sabés que, por ejemplo, está a favor de la legalización de la marihuana, y vos también. Por eso lo votaste, porque piensa como vos. Sin embargo, el partido le dice que no levante la mano. Después, a la semana, te encontrás con tu diputado a quien votaste, y le decís: \"Che, ¿por qué votaste esto?\". Y te dice: \"Yo estaba a favor, pero tuve que votar en contra por política partidaria\". Escuchame... eso es lo más antidemocrático que hay."
           ],
           [
             "p",
-            "En ese momento lo bancaba porque tuvo los huevos. Había tenido los huevos de hacerlo y lo estaba haciendo."
+            "En ese momento lo bancaba porque tuvo los huevos. Había tenido los huevos de soñarlo, hacerlo, y lo estaba haciendo."
           ],
           [
             "h",
@@ -209,7 +209,7 @@ window.STORIES = {
           ],
           [
             "p",
-            "Empecé a ir a ver qué precisaban, a publicar cosas. La primera vez que entré a un comité político en mis 44 años fue la trinchera de los \"valores\", y lo quería ayudar, porque el tipo me caía bien y otro poco para matar el ocio. Se juntaban creo que los jueves; fui un día y después seguí yendo. Ayudé en los últimos cuatro meses de la campaña, creo."
+            "La primera vez que entré a un comité político en mis 44 años fue la trinchera de los \"valores\", y lo quería ayudar, porque el tipo me caía bien y otro poco para matar el ocio. Se juntaban creo que los jueves, fui un día y después seguí yendo. Ayudé en los últimos cuatro meses de la campaña, creo."
           ],
           [
             "p",
@@ -289,11 +289,11 @@ window.STORIES = {
           ],
           [
             "h",
-            "Mi último día en ISallidad Sallidana"
+            "Mi último día en \"Isallidad Sallidana\""
           ],
           [
             "p",
-            "Un día estábamos en un asado, ponele que tres meses después de haber ganado. Viene Salle, a mostrar su camioneta nueva (para mí, comprada con la de los votos). Le decían: \"No tiene más la Salleneta\". Yo veía que el loco no me daba mucha bola hacía meses. Había otro loco y un par más que me decían \"qué raro\", y le digo: yo lo voy a encarar. Me dice: \"No, pará, que yo le pregunto\". Estábamos comiendo en el parrillero y vuelve con cara medio larga. Según lo que me dijo, alguien le había dicho a Salle que yo era un espía del MPP. Esa persona, que además me conocía, me dijo que no podía creer lo que escuchó, y creo que ese día se alejó también. ¡Del MPP, nada más y nada menos! De dónde habrá sacado ese delirio."
+            "Un día estábamos en un asado, ponele que tres meses después de haber sido electo. Viene Salle, a mostrar su camioneta nueva (para mí, comprada con la de los votos). Le preguntaban qué pasó con la Salleneta. Ya para ese entonces veía que el diputado estaba esquivo, no me daba mucha bola hacía meses. Había otro loco y un par más que me decían \"qué raro\", y le digo: yo lo voy a encarar. Me dice: \"No, pará, que yo le pregunto\". Estábamos comiendo en el parrillero y vuelve con cara medio larga. Según lo que me dijo, alguien le había dicho a Salle que yo era un espía del MPP. Esa persona, que además me conocía, me dijo que no podía creer lo que escuchó, y creo que ese día se alejó también. ¡Del MPP, nada más y nada menos! De dónde habrá sacado ese delirio."
           ],
           [
             "p",
