@@ -413,7 +413,7 @@ window.STORIES = {
       'eek-a-mouse': {
         "section": "musica",
         "kicker": "Le puso el nombre de un caballo que siempre perdía",
-        "lead": "Eek-A-Mouse, la leyenda viviente que todos usaron",
+        "lead": "Eek-A-Mouse: 40 años de reggae, estafas y escenarios",
         "dek": "Inventó el singjay, alegró a Jamaica cuando murió Marley y lleva más de 40 años en los escenarios. En el camino, según cuenta él, lo estafaron managers, se peleó con los Marley y terminó expulsado de Estados Unidos.",
         "byline": "Por Román · 14 de noviembre de 2026 · ⏱ 10 min de lectura",
         "image": "assets/eek-a-mouse.svg",
