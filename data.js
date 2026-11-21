@@ -591,6 +591,146 @@ window.STORIES = {
           ]
         ]
       },
+      'bukele-haiti': {
+        "section": "internacional",
+        "kicker": "El rescate que se volvió guerra",
+        "lead": "Bukele lleva su guerra contra las pandillas a Haití",
+        "dek": "Fue a buscar a cuatro técnicos desaparecidos y ya tiene más de 2.000 soldados en Puerto Príncipe, helicópteros artillados y un estadio como base. En las calles lo vivan; la ONU y Amnistía piden saber bajo qué reglas opera.",
+        "byline": "Por Román · 21 de noviembre de 2026 · ⏱ 7 min de lectura",
+        "image": "assets/bukele-haiti.svg",
+        "imageAlt": "Ilustración con las banderas de El Salvador y Haití",
+        "body": [
+          [
+            "h",
+            "Cómo empezó"
+          ],
+          [
+            "p",
+            "El 18 de octubre, cuatro técnicos de aviación salvadoreños que formaban parte de la Fuerza de Supresión de Pandillas (GSF, la misión que avaló la ONU en Haití) cayeron en una emboscada en Croix-des-Bouquets, en las afueras de Puerto Príncipe. La policía haitiana encontró después la camioneta en la que andaban, quemada. De ellos, nada. Un mes después siguen desaparecidos, y el vicepresidente salvadoreño Félix Ulloa admitió que no hay rastros para saber si están vivos."
+          ],
+          [
+            "p",
+            "Bukele reaccionó a su manera. Primero mandó unos cien soldados de fuerzas especiales para buscarlos. El 28 de octubre habló por teléfono con el primer ministro haitiano, Alix Didier Fils-Aimé, y anunció el envío de más de 2.000 militares, con helicópteros y blindados. Algunos medios ya hablan de 2.500."
+          ],
+          [
+            "card",
+            "La letra chica",
+            "Ojo con esto",
+            "Solo unos 200 de esos soldados están bajo el paraguas de la ONU, según dijo un vocero de Naciones Unidas. El resto opera por fuera de la GSF, con el permiso del gobierno haitiano. La propia GSF, que debía llegar a 5.500 efectivos, apenas tiene unos 2.000."
+          ],
+          [
+            "h",
+            "Lo que hicieron en un mes"
+          ],
+          [
+            "p",
+            "Bukele va contando el operativo en tiempo real en X, muchas veces en criollo haitiano, con videos de soldados patrullando y de gente que los saluda. Entre los hechos más visibles: el 9 de noviembre, tropas salvadoreñas y la policía haitiana destruyeron la casa de un líder de la banda 400 Mawozo, la que tienen señalada por la emboscada. Días después tomaron el estadio Sylvio Cator, el principal del país, que estaba en manos de las pandillas desde febrero de 2024, y lo convirtieron en base de operaciones."
+          ],
+          [
+            "p",
+            "El 18 de noviembre destruyeron otra casa de un jefe pandillero. Bukele lo presentó como su regalo al pueblo haitiano por el aniversario de la batalla de Vertières, la de 1803, que fue clave para la independencia de Haití. Marketing no le falta."
+          ],
+          [
+            "p",
+            "También subió un video de sus helicópteros disparando contra pandilleros que atacaban a soldados de Chad de la GSF, y escribió que las pandillas ya no tienen la ventaja. En otro posteo las llamó \"satánicas\" y prometió que Dios les va a dar la victoria."
+          ],
+          [
+            "h",
+            "\"¡Bukele, Bukele!\""
+          ],
+          [
+            "p",
+            "El martes 17, miles de haitianos salieron a la calle en Puerto Príncipe y otras ciudades para apoyarlo. Hubo retratos suyos, banderas salvadoreñas besadas arriba de blindados y hasta pedidos de más drones explosivos y perros robot contra las bandas. Bukele contestó en criollo que nunca había esperado algo así."
+          ],
+          [
+            "p",
+            "Se entiende el entusiasmo. Según la ONU, las pandillas controlan cerca del 90 % de la capital. Más de 20.000 personas murieron en los últimos cinco años, y solo en lo que va de 2026 ya van más de 4.500. La Policía Nacional tenía, hasta el año pasado, como mucho 8.000 agentes activos para casi 12 millones de habitantes, con sueldos de unos 300 dólares por mes. Al lado de eso, un presidente que llega con helicópteros y resultados en una semana parece un milagro."
+          ],
+          [
+            "h",
+            "Las preguntas que nadie contesta"
+          ],
+          [
+            "p",
+            "El mismo día de la marcha, los dos gobiernos firmaron un acuerdo de cooperación. Ulloa avisó que no se va a hacer público, y cuando le preguntaron si garantiza los derechos humanos, respondió que hay una \"agenda oculta\" para criticar el operativo."
+          ],
+          [
+            "p",
+            "Las críticas vienen de varios lados. Amnistía Internacional les pidió a Bukele y a Fils-Aimé que publiquen las condiciones del despliegue, que digan quién controla a las tropas y que garanticen investigaciones independientes ante cualquier denuncia. El alto comisionado de la ONU para los Derechos Humanos pidió usar la fuerza letal solo como último recurso. Médicos Sin Fronteras contó 30 heridos por balas y explosiones de drones en los ocho días que siguieron a la desaparición de los técnicos."
+          ],
+          [
+            "p",
+            "La más dura fue la Asociación de las Naciones Unidas en Haití (UNA-Haití), una organización civil que le escribió a António Guterres para denunciar bombardeos indiscriminados en Croix-des-Bouquets, Canaan y la Plaine du Cul-de-Sac, con niños entre las víctimas. Pide una investigación independiente y sostiene que ninguna resolución del Consejo de Seguridad autoriza una intervención unilateral. No dio una cifra de muertos, y el gobierno salvadoreño no respondió esas acusaciones puntuales."
+          ],
+          [
+            "card",
+            "La letra chica",
+            "Ojo con esto",
+            "En El Salvador, las respuestas también vienen en modo Bukele. Un diputado oficialista contestó el comunicado de Amnistía con un irónico \"los derechos de pandilleros\". Es el mismo libreto del régimen de excepción en casa, con decenas de miles de presos y muchas garantías suspendidas, pero ahora en otro país."
+          ],
+          [
+            "h",
+            "¿Y cuando se vayan?"
+          ],
+          [
+            "p",
+            "Ulloa y el ministro de Seguridad, Gustavo Villatoro, repiten que los soldados vuelven a casa cuando aparezcan los cuatro técnicos. Pero el operativo ya va bastante más allá de una búsqueda, y nadie dice qué pasa si no aparecen nunca."
+          ],
+          [
+            "p",
+            "El International Crisis Group publicó esta semana un informe basado en más de cien entrevistas. Concluye que la nueva ofensiva da un alivio temporal, pero apunta a debilitar a las pandillas, no a desarmarlas, y que Haití no tiene un plan propio para cuando se vayan las fuerzas extranjeras. Su analista Diego Da Rin advirtió que el fervor de hoy podría transformarse en bronca contra el gobierno haitiano si las tropas se retiran."
+          ],
+          [
+            "p",
+            "Hay otro detalle de contexto: Haití no tiene un gobierno electo desde el asesinato de Jovenel Moïse en 2021, y las elecciones se acaban de postergar otra vez, a julio de 2027. Del lado salvadoreño, Bukele acaba de lanzar su candidatura a un tercer mandato, ahora que se eliminaron los límites de reelección. Sus críticos ven en Haití una vidriera de campaña; sus seguidores, la prueba de que su modelo funciona."
+          ],
+          [
+            "h",
+            "Lo que hay que mirar"
+          ],
+          [
+            "p",
+            "Bukele ya había dicho en marzo de 2024 que podía \"arreglar\" Haití si le daban luz verde la ONU y el gobierno haitiano y si le pagaban los gastos. Esta vez no esperó el permiso de la ONU y dice que paga casi todo él. Si los técnicos aparecen y las tropas se van, puede ser una operación de rescate que salió bien. Si se quedan, El Salvador habrá exportado su modelo de mano dura a otro país, sin reglas públicas y con un pueblo que hoy lo aplaude. Y hace poco su vice estuvo de visita en la Torre Ejecutiva. Por las dudas, conviene seguirlo de cerca."
+          ],
+          [
+            "fuentes",
+            [
+              [
+                "Al Jazeera — Bukele exhibe la intervención militar en Haití",
+                "https://aljazeera.com/news/2026/11/5/el-salvadors-bukele-touts-military-intervention-in-haiti"
+              ],
+              [
+                "Jamaica Gleaner (AP) — 'Bukele is here to free us'",
+                "https://jamaica-gleaner.com/index%2Ephp/article/world-news/20261118/bukele-here-free-us"
+              ],
+              [
+                "Le Temps — Tropas salvadoreñas destruyen la casa de un líder pandillero",
+                "https://www.letemps.ch/en/world/americas/in-haiti-salvadoran-troops-destroy-a-gang-leader-s-home"
+              ],
+              [
+                "Emol (EFE) — Base operativa en el estadio Sylvio Cator",
+                "https://www.emol.com/noticias/Internacional/2026/11/13/1217041/bukele-base-operativa-haiti-estadio.html"
+              ],
+              [
+                "Amnistía Internacional — El despliegue debe respetar los derechos humanos",
+                "https://www.amnesty.org/es/latest/news/2026/11/haiti-los-gobiernos-de-haiti-y-el-salvador-deben-garantizar-que-el-despliegue-militar-salvadoreno-respete-los-derechos-humanos/"
+              ],
+              [
+                "Revista E&N (EFE) — UNA-Haití denuncia muertes de civiles",
+                "https://www.revistaeyn.com/centroamericaymundo/una-haiti-denuncia-muertes-de-civiles-que-atribuye-a-soldados-salvadorenos-BM32497556"
+              ],
+              [
+                "CFR — ¿Quién protege a los civiles?",
+                "https://www.cfr.org/articles/el-salvadors-troops-are-fighting-haitis-gangs-who-is-protecting-civilians"
+              ],
+              [
+                "The Haitian Times — Bukele busca un tercer mandato",
+                "https://haitiantimes.com/2026/11/20/nayib-bukele-third-term-el-salvador-haiti-troops"
+              ]
+            ]
+          ]
+        ]
+      },
       'uruguay-india': {
         section: 'deportes',
         kicker: 'La forlaneta se elige las pintas',

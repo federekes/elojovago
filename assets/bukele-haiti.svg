@@ -1,0 +1,30 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 675" role="img" aria-label="Banderas de El Salvador y Haití">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#14171c"/>
+      <stop offset="1" stop-color="#0b0d10"/>
+    </linearGradient>
+  </defs>
+  <rect width="1200" height="675" fill="url(#bg)"/>
+  <!-- El Salvador -->
+  <g transform="translate(110 170) rotate(-3)">
+    <rect width="420" height="260" fill="#0F47AF"/>
+    <rect y="86.7" width="420" height="86.6" fill="#FFFFFF"/>
+    <circle cx="210" cy="130" r="30" fill="none" stroke="#C9A227" stroke-width="5"/>
+    <polygon points="210,108 232,146 188,146" fill="none" stroke="#2E7D32" stroke-width="4"/>
+  </g>
+  <!-- Haití -->
+  <g transform="translate(670 170) rotate(3)">
+    <rect width="420" height="130" fill="#00209F"/>
+    <rect y="130" width="420" height="130" fill="#D21034"/>
+    <rect x="160" y="95" width="100" height="70" fill="#FFFFFF"/>
+    <rect x="203" y="105" width="14" height="40" fill="#2E7D32"/>
+    <rect x="180" y="145" width="60" height="10" fill="#7B3F00"/>
+  </g>
+  <!-- flecha -->
+  <g fill="none" stroke="#f2c14e" stroke-width="10" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M 470 520 Q 600 450 730 520"/>
+    <path d="M 700 492 L 732 521 L 692 532"/>
+  </g>
+  <text x="600" y="610" text-anchor="middle" font-family="Georgia, serif" font-size="40" font-weight="700" fill="#e8e6e1">San Salvador → Puerto Príncipe</text>
+</svg>
